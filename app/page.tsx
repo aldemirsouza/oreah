@@ -1,15 +1,14 @@
 "use client";
-import Image from "next/image";
 
+import Image from "next/image";
+import Link from "next/link";
 
 export default function UnderConstruction() {
-
   return (
     <main className="min-h-screen flex flex-col items-center justify-between px-4 py-8">
 
       {/* Conteúdo */}
       <section className="flex flex-col items-center justify-center flex-1 text-center gap-6">
-
         <Image
           src="/oreah_logo.png"
           alt="Logo do Projeto"
@@ -32,12 +31,19 @@ export default function UnderConstruction() {
       <footer className="flex flex-col items-center gap-2 text-xs text-white">
         <span>Desenvolvimento power by</span>
 
-        <Image
-          src="/kaiiro-logo.png"
-          alt="Logo da Kairro"
-          width={120}
-          height={40}
-        />
+        <Link
+          href="https://kaiiro.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80 transition duration-300"
+        >
+          <Image
+            src="/kaiiro-logo.png"
+            alt="Logo da Kaiiro"
+            width={120}
+            height={40}
+          />
+        </Link>
       </footer>
     </main>
   );

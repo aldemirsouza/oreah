@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Site em Construção",
+  title: "Oreah",
   description: "Estamos preparando algo incrível",
 };
 

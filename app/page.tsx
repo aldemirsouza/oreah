@@ -38,10 +38,10 @@ export default function UnderConstruction() {
           className="hover:opacity-80 transition duration-300"
         >
           <Image
-            src="/kaiiro-logo.png"
+            src="/logo-kaiiro-branco.png"
             alt="Logo da Kaiiro"
             width={120}
-            height={40}
+            height={60}
           />
         </Link>
       </footer>
